@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: #1768c5;
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    
+}
+
+
+.sueldos{
+    font-size: 20px;
+    color: #ddeaec; 
+    background-color: #4582b4; 
+    box-shadow: 5px 5px 15px rgb(0, 110, 255);
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block;
+    position: absolute;
+    top: 420px;
+    left: 110px;  
+
+}
+
+.ingreso{
+    font-size: 15px;
+    color: #ddeaec; 
+    background-color: #4582b4; 
+    box-shadow: 5px 5px 15px rgb(0, 110, 255);
+    padding: 15px; 
+    border-radius: 5px; 
+    position: absolute;
+    top: 100px;
+    left: 10px;  
+
+}

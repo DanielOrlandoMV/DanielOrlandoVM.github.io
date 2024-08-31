@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-inicio.css">
+    <title>Jubilación IGSS</title>
+</head>
+<body>
+    <div class="enca">
+        <h1>Calculadora para la Jubilación del IGSS</h1>
+    </div>
+    
+    <div class="ingreso">
+    <form id="jubilacionForm">
+        <label for="nombreCompleto">Nombre Completo:</label>
+        <input type="text" id="nombreCompleto" name="nombreCompleto" required><br><br>
+
+        <label for="nit">Numero NIT:</label>
+        <input type="text" id="nit" name="nit" required><br><br>
+
+        <label for="dpi">Numero DPI:</label>
+        <input type="text" id="dpi" name="dpi" required><br><br>
+
+        <label for="entidadGobierno">Entidad Gobierno:</label>
+        <input type="text" id="entidadGobierno" name="entidadGobierno" required><br><br>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br>
+
+        <label for="cantidadAniosLaborados">Años Laborados:</label>
+        <input type="number" id="cantidadAniosLaborados" name="cantidadAniosLaborados" min="0" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+    </div>
+
+<div class="sueldos">
+        <label for="sueldos">Ultimos 3 sueldos recibidos :</label><br>
+        <input type="number" id="sueldoAnio1" name="sueldoAnio1" placeholder="Sueldo Año 1" required><br>
+        <input type="number" id="sueldoAnio2" name="sueldoAnio2" placeholder="Sueldo Año 2" required><br>
+        <input type="number" id="sueldoAnio3" name="sueldoAnio3" placeholder="Sueldo Año 3" required><br>
+
+        <button type="submit">Calcular Jubilación</button>
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
